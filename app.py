@@ -168,7 +168,7 @@ def answer_with_context(
 # -----------------------
 st.set_page_config(page_title="Gen-AI PDF Q&A — Streamlit (Provider: OpenAI/HuggingFace)")
 
-st.title("Gen-AI Document Q&A — OpenAI / HuggingFace Inference")
+st.title("Gen-AI Document Q&A ASK me Iam There FOR You ")
 st.markdown(
     """
 Upload a PDF or Jupyter notebook (.ipynb) and ask questions.  
@@ -281,3 +281,4 @@ if uploaded is not None:
 
 else:
     st.info("Upload a file to get started.")
+
